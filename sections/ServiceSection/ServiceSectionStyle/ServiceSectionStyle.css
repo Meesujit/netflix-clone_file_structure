@@ -1,0 +1,9 @@
+.service-section {
+    padding: 50px 20px;
+    color: white;
+}
+
+.service-component {
+    max-width: 1200px;
+    margin: 0 auto;
+}

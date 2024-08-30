@@ -1,0 +1,17 @@
+.primary-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+ .primary-content .p1{
+    font: bolder;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.primary-content .p2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}

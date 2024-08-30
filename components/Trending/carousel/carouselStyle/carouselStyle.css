@@ -1,0 +1,86 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 20px 0 50px 0;
+    overflow: hidden;
+}
+
+.carousel-slider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+    position: relative;
+    min-width: 20%;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carousel-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carousel-card h1 {
+    position: absolute;
+    font-weight: 700;
+    font-family: 'Netflix Sans', sans-serif;
+    bottom: 10px;
+    left: -20px;
+    margin: 0;
+    font-size: 7rem;
+    -webkit-text-stroke: 1px white;
+   color: black;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}
+
+
+@media (max-width: 768px) {
+    .carosule-card {
+        min-width: 150px;
+    }
+
+    .carousel-card h1 {       
+        font-size: 4rem;
+        left: -12px;
+        
+    }
+}

@@ -1,0 +1,36 @@
+.email-component {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    gap: 10px;
+}
+
+.email-component input {
+    padding: 15px;
+    font-size: 16px;
+    width: 50vw;
+    max-width: 100%;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border: 0.1px solid rgb(102, 100, 100);
+    color: #ffffff;
+}
+
+.email-component button {
+    padding: 15px 30px;
+    background-color: #db0000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-component button:hover {
+    background-color: #e50914;
+}
